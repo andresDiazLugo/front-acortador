@@ -25,7 +25,7 @@ export default function FormUrl() {
   }
   const sendInfoUrl = async (e)=>{
     e.preventDefault();
-    const response = await Post("http://localhost:3001/",url);
+    const response = await Post("https://api-acortador-production.up.railway.app/",url);
     if(!response){
       customAlert("Hubo un error al cargar la URL",false)
     }else{
