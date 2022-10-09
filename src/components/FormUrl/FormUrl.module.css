@@ -1,0 +1,66 @@
+.container{
+    background-color: var(--color-container);
+    width: 60rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    color: red;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.subContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.input{
+    width: 30rem;
+    height: 2rem;
+}
+.subContainer button{
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3rem;
+    border: 0px;
+}
+.container h2 a{
+    text-decoration: none;
+    color: var(--colro-enlaces);
+}
+.container h2 a:hover{
+    text-decoration: none;
+    color: blue;
+    transition: 1s;
+
+
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+    .subContainer{
+        margin-top: 2rem;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input{
+        width: 80%;
+        height: fit-content + 3rem;
+    }
+}

@@ -1,0 +1,10 @@
+@import "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+:root {
+  font-family: 'Roboto', Avenir, Helvetica, Arial, sans-serif;
+ --color-container: #EA4C15;
+ --colro-enlaces: #0C63E7;
+  background-color: #242424;
+}
